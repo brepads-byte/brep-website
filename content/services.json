@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "name": "Architecture",
+      "description": "Architecture is at the heart of our practice. We design new homes, villas and commercial buildings from the first site study to full construction drawings, shaping each plan around its plot, its orientation and the way its owners want to live and work. Shade, cross-ventilation and local materials come first, so our buildings stay comfortable through Tamil Nadu's long summers while using less energy. Every project is drawn, detailed and coordinated in our studio.",
+      "images": [
+        "images/uploads/services/brep-svc-architecture-1.jpg",
+        "images/uploads/services/brep-svc-architecture-2.jpg",
+        "images/uploads/services/brep-svc-architecture-3.jpg",
+        "images/uploads/services/brep-svc-architecture-4.jpg"
+      ]
+    },
+    {
+      "name": "Interiors",
+      "description": "We design interiors as part of the architecture, not as decoration added afterwards. Layouts are planned around daily routines, and every piece of joinery, from kitchens and wardrobes to shelving and doors, is drawn in detail for local craftsmen to build. We choose a quiet palette of natural materials, lime plaster, timber and stone, and layer lighting so rooms feel calm by day and warm at night. The result is a home that is easy to live in.",
+      "images": [
+        "images/uploads/services/brep-svc-interiors-1.jpg",
+        "images/uploads/services/brep-svc-interiors-2.jpg",
+        "images/uploads/services/brep-svc-interiors-3.jpg",
+        "images/uploads/services/brep-svc-interiors-4.jpg"
+      ]
+    },
+    {
+      "name": "Landscape",
+      "description": "Gardens, courtyards and boundaries are planned together with the building, so indoor and outdoor rooms work as one. We use shade trees, planted courtyards and terrace gardens to cool the house and give each room a view of green. Planting is chosen for the local climate and needs little water once established. Paths, compound walls and gates are designed with the same care as the façade, giving the whole site a clear and settled character.",
+      "images": [
+        "images/uploads/services/brep-svc-landscape-1.jpg",
+        "images/uploads/services/brep-svc-landscape-2.jpg",
+        "images/uploads/services/brep-svc-landscape-3.jpg",
+        "images/uploads/services/brep-svc-landscape-4.jpg"
+      ]
+    },
+    {
+      "name": "Hospitality",
+      "description": "We design hotels, resorts, cafés and restaurants that guests remember and staff find easy to run. Each project begins with the setting and the story the owners want to tell, then works through guest rooms, public spaces and the back-of-house areas that keep everything moving. We pay close attention to light, acoustics and materials, and plan construction in phases where needed, so a business can open early and grow over time.",
+      "images": [
+        "images/uploads/services/brep-svc-hospitality-1.jpg",
+        "images/uploads/services/brep-svc-hospitality-2.jpg",
+        "images/uploads/services/brep-svc-hospitality-3.jpg",
+        "images/uploads/services/brep-svc-hospitality-4.jpg"
+      ]
+    },
+    {
+      "name": "Renovation",
+      "description": "Many good buildings need a new layout rather than a new start. We survey what exists, check the structure, and find the simplest way to add a floor, open up rooms or bring in light and air. Original details worth keeping are restored, and new work is designed to sit comfortably beside them. Where families need to stay in their home during the work, we plan the renovation in clear stages to keep disruption to a minimum.",
+      "images": [
+        "images/uploads/services/brep-svc-renovation-1.jpg",
+        "images/uploads/services/brep-svc-renovation-2.jpg",
+        "images/uploads/services/brep-svc-renovation-3.jpg",
+        "images/uploads/services/brep-svc-renovation-4.jpg"
+      ]
+    },
+    {
+      "name": "Supervision",
+      "description": "A design is only as good as the building it becomes. Our architects visit site at every important stage, checking that the work matches the drawings and specification, and resolving questions with the contractor before they turn into problems. We review materials, inspect finishes and keep you informed with short reports after each visit. Supervision continues until the building is complete, checked and handed over to you, ready to live in.",
+      "images": [
+        "images/uploads/services/brep-svc-supervision-1.jpg",
+        "images/uploads/services/brep-svc-supervision-2.jpg",
+        "images/uploads/services/brep-svc-supervision-3.jpg",
+        "images/uploads/services/brep-svc-supervision-4.jpg"
+      ]
+    }
+  ]
+}

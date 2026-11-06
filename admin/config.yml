@@ -1,0 +1,157 @@
+# Brep website editor settings (Sveltia CMS, also compatible with Decap CMS).
+# GitHub repository that holds the website files.
+
+backend:
+  name: github
+  repo: brepads-byte/brep-website
+  branch: main
+
+# Photos you upload are saved in this folder of the website.
+media_folder: images/uploads
+public_folder: images/uploads
+
+site_url: https://brep.co.in
+display_url: https://brep.co.in
+logo_url: /images/favicon.svg
+
+collections:
+  # ---------------------------------------------------------------- Projects
+  - name: projects
+    label: Projects
+    description: >-
+      Add, edit or remove projects. Drag a project up or down to change its order.
+      Projects are grouped by category on the website.
+    files:
+      - name: projects
+        label: All projects
+        file: content/projects.json
+        fields:
+          - name: projects
+            label: Projects
+            label_singular: Project
+            widget: list
+            summary: "{{fields.name}} · {{fields.category}} · {{fields.location}}"
+            fields:
+              - name: name
+                label: Project name
+                widget: string
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Residential, value: residential }
+                  - { label: Commercial, value: commercial }
+                  - { label: Hospitality, value: hospitality }
+                  - { label: Interiors, value: interiors }
+              - name: type
+                label: Type
+                widget: string
+                hint: "For example: Residence, Office building, Café, Apartment interior"
+              - name: location
+                label: Location
+                widget: string
+                hint: "Town or city, for example: Erode"
+              - name: area
+                label: Area
+                widget: string
+                hint: "For example: 8,000 sq ft"
+              - name: description
+                label: Description
+                widget: text
+                hint: "About 100 words. Anything longer is cut off on the website."
+              - name: images
+                label: Photos
+                label_singular: Photo
+                widget: list
+                required: false
+                hint: "Add 3 to 6 photos. The first photo is used on the home page slideshow. Drag to reorder."
+                field:
+                  name: image
+                  label: Photo
+                  widget: image
+              - name: sample
+                label: Sample project
+                widget: boolean
+                default: false
+                required: false
+                hint: "Shows a small 'Sample project' tag. Turn this off for real projects."
+
+  # ---------------------------------------------------------------- Pages
+  - name: pages
+    label: Pages
+    description: Text and photos on the Studio, Services, Process and Contact pages.
+    files:
+      - name: about
+        label: Studio · About
+        file: content/about.json
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - name: paragraphs
+            label: Paragraphs
+            label_singular: Paragraph
+            widget: list
+            field: { name: text, label: Paragraph, widget: text }
+          - { name: team_title, label: Team heading, widget: string, default: Team }
+          - name: team
+            label: Team
+            label_singular: Team member
+            widget: list
+            summary: "{{fields.name}} · {{fields.role}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: role, label: Role, widget: string }
+          - name: images
+            label: Photos
+            label_singular: Photo
+            widget: list
+            required: false
+            hint: "Studio, team and work-in-progress photos. They scroll under the logo."
+            field: { name: image, label: Photo, widget: image }
+
+      - name: services
+        label: Studio · Services
+        file: content/services.json
+        fields:
+          - name: services
+            label: Services
+            label_singular: Service
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: Service name, widget: string }
+              - { name: description, label: Description, widget: text, hint: "About 70 to 90 words." }
+              - name: images
+                label: Photos
+                label_singular: Photo
+                widget: list
+                required: false
+                max: 4
+                hint: "Up to 4 photos, shown side by side."
+                field: { name: image, label: Photo, widget: image }
+
+      - name: process
+        label: Studio · Process
+        file: content/process.json
+        fields:
+          - name: steps
+            label: Stages
+            label_singular: Stage
+            widget: list
+            summary: "{{fields.title}}"
+            hint: "Stages are numbered automatically in this order."
+            fields:
+              - { name: title, label: Stage name, widget: string }
+              - { name: description, label: One-line description, widget: string }
+
+      - name: site
+        label: Contact details
+        file: content/site.json
+        fields:
+          - { name: location, label: Location (shown in the sidebar), widget: string }
+          - { name: address, label: Studio address, widget: text }
+          - { name: map_link, label: Google Maps link, widget: string, required: false }
+          - { name: phone, label: Phone number, widget: string }
+          - { name: whatsapp, label: WhatsApp number, widget: string, hint: "Digits only, with country code. For example: 919790444744" }
+          - { name: email, label: Email, widget: string }
+          - { name: instagram, label: Instagram username, widget: string, required: false, hint: "Without the @. For example: brep.ad" }

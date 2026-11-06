@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "title": "Brief and site visit",
+      "description": "We meet, visit the plot and record what it needs."
+    },
+    {
+      "title": "Concept design",
+      "description": "Schematic floor plans, a preliminary client brief and mood boards."
+    },
+    {
+      "title": "Preliminary design",
+      "description": "Elevations, basic sections and 3D views for your approval."
+    },
+    {
+      "title": "Structural design",
+      "description": "Structural and MEP drawings checked against the design, so nothing clashes."
+    },
+    {
+      "title": "Approvals and appointment of contractors",
+      "description": "Drawings for local approvals, and help choosing a verified contractor."
+    },
+    {
+      "title": "Working drawings and details",
+      "description": "Good for Construction drawings: structural, electrical, HVAC, plumbing, joinery and tile layouts."
+    },
+    {
+      "title": "Construction and execution",
+      "description": "Regular site visits, detail drawings and updates as the site changes."
+    },
+    {
+      "title": "Completion",
+      "description": "Interior styling, furnishing details, project records and a photo shoot."
+    }
+  ]
+}

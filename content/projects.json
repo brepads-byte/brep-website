@@ -1,0 +1,129 @@
+{
+  "projects": [
+    {
+      "name": "Aarif Adobe",
+      "category": "residential",
+      "type": "Residence",
+      "location": "Erode",
+      "area": "8,000 sq ft",
+      "sample": false,
+      "description": "Aarif Adobe is an 8,000 sq ft contemporary residence that blends clean modern geometry with fluid, sculpted forms to create a calm and unified architectural expression. Designed as a series of floating volumes, the home features soft curves, deep balconies and climate-responsive façade elements that bring comfort, privacy and elegance to every room. Thoughtful landscaping, layered boundaries and carefully framed openings create a seamless connection between the built and the natural. The house reflects our commitment to refined aesthetics, functional planning and context-driven design, delivering a residence that is visually striking and deeply comfortable for modern family life.",
+      "images": [
+        "https://res.cloudinary.com/dnjleomxn/image/upload/w_1800,q_auto,f_auto/v1776153748/architecture_portfolio/rw1qkiwldp5kktxzorzl.jpg",
+        "https://res.cloudinary.com/dnjleomxn/image/upload/w_1800,q_auto,f_auto/v1776153751/architecture_portfolio/myixqxzwvgxn15ncwftb.jpg",
+        "https://res.cloudinary.com/dnjleomxn/image/upload/w_1800,q_auto,f_auto/v1776153753/architecture_portfolio/uu6jz2iqyv2qqagttp3y.jpg",
+        "https://res.cloudinary.com/dnjleomxn/image/upload/w_1800,q_auto,f_auto/v1776153755/architecture_portfolio/jqnpcekq4aolgvqekpt1.jpg"
+      ]
+    },
+    {
+      "name": "Weavers' Office",
+      "category": "commercial",
+      "type": "Office building",
+      "location": "Tiruppur",
+      "area": "12,500 sq ft",
+      "sample": true,
+      "description": "A four-storey headquarters for a textile exporter in Tiruppur, planned around the daily rhythm of design, sampling and dispatch. A deep concrete grid wraps the building on all sides, shading the glazing from the harsh afternoon sun while framing long views across the city. At the centre, a tall light well draws daylight and cross-ventilation into every work floor, reducing the need for artificial cooling. Exposed concrete, terrazzo floors and teak details keep the palette honest and durable. The ground floor opens to a shaded forecourt where buyers, staff and visitors meet, giving the company a calm, confident public face.",
+      "images": []
+    },
+    {
+      "name": "Cauvery Retreat",
+      "category": "hospitality",
+      "type": "Riverside resort",
+      "location": "Bhavani",
+      "area": "18 cottages",
+      "sample": true,
+      "description": "A small riverside resort of eighteen cottages set among old trees on the banks of the Cauvery near Bhavani. Each cottage is a simple pitched-roof pavilion with a deep verandah facing the water, built from local stone, lime plaster and clay roof tiles that keep the interiors cool through long summers. Paths follow the natural contours of the site so that no tree had to be removed. A central dining hall, open on three sides, catches the river breeze. Rainwater from every roof is collected and returned to the landscape, letting the resort sit lightly on a sensitive riverside site.",
+      "images": []
+    },
+    {
+      "name": "Teak Apartment",
+      "category": "interiors",
+      "type": "Apartment interior",
+      "location": "Coimbatore",
+      "area": "2,200 sq ft",
+      "sample": true,
+      "description": "A three-bedroom apartment in Coimbatore reworked for a young family who wanted more calm and less clutter. The plan is organised around a single long teak wall that runs the length of the home, holding storage, open shelving, a reading nook and the concealed doors to each bedroom. Walls and ceilings are finished in soft lime plaster, and floors in a pale, honed stone that stays cool underfoot. Lighting is mostly indirect, washing the walls rather than the room. Built-in furniture keeps surfaces clear, so the apartment feels larger, quieter and easier to live in every day.",
+      "images": []
+    },
+    {
+      "name": "Courtyard House",
+      "category": "residential",
+      "type": "Residence",
+      "location": "Gobichettipalayam",
+      "area": "4,200 sq ft",
+      "sample": true,
+      "description": "A single-storey family home arranged around an open central courtyard, drawing on the traditional houses of the Kongu region. Every room opens onto the courtyard through tall timber doors, so light, air and the sound of rain reach the heart of the house. A deep, shaded verandah wraps the outer edge and keeps the walls cool through the afternoon. Floors are red oxide and Kota stone, and the roof is finished in Mangalore tiles over a concrete slab for insulation. The plan leaves room for a future first floor without disturbing daily life below, allowing the house to grow with the family.",
+      "images": []
+    },
+    {
+      "name": "Brick Villa",
+      "category": "residential",
+      "type": "Residence",
+      "location": "Perundurai",
+      "area": "3,600 sq ft",
+      "sample": true,
+      "description": "A two-storey villa built almost entirely in locally fired exposed brick, chosen for its warmth, durability and low maintenance. A perforated brick screen on the west façade filters the harsh sun while letting breezes pass through, casting shifting patterns across the living spaces inside. The ground floor holds a generous open living and dining area that steps out to a shaded garden lawn. Upstairs, three bedrooms each have their own balcony overlooking the trees. Simple materials, careful detailing and passive cooling keep running costs low and make the house comfortable through every season of the year.",
+      "images": []
+    },
+    {
+      "name": "Handloom Showroom",
+      "category": "commercial",
+      "type": "Retail showroom",
+      "location": "Erode",
+      "area": "6,800 sq ft",
+      "sample": true,
+      "description": "A three-level showroom for a family handloom business on one of Erode's busiest market streets. The street front is a tall, shaded glass façade behind a screen of timber fins, letting passers-by glimpse the colour of the fabrics inside without exposing them to direct sun. Inside, a single open stair connects the floors and doubles as a display gallery for the finest saris. Display walls are built in plain plywood and lime plaster, so the textiles remain the focus. Daylight from a roof skylight reaches all three levels, keeping colours true and lighting costs low throughout the working day.",
+      "images": []
+    },
+    {
+      "name": "Family Clinic",
+      "category": "commercial",
+      "type": "Healthcare",
+      "location": "Erode",
+      "area": "5,000 sq ft",
+      "sample": true,
+      "description": "A neighbourhood clinic designed to feel calm and welcoming rather than clinical. Consulting rooms are arranged around a small planted courtyard, so every patient waiting area looks out onto greenery and natural light. Separate entries keep outpatient, pharmacy and diagnostic areas clear and easy to find, even for first-time visitors. Durable, easy-to-clean materials such as terrazzo floors and glazed tiles are softened with warm timber details. Deep overhangs and cross-ventilation reduce the load on air conditioning, and the structure is planned so a second floor of consulting rooms can be added later without closing the clinic.",
+      "images": []
+    },
+    {
+      "name": "Hill Stay",
+      "category": "hospitality",
+      "type": "Boutique hotel",
+      "location": "Yercaud",
+      "area": "12 rooms",
+      "sample": true,
+      "description": "A twelve-room boutique hotel on a steep coffee estate in the Shevaroy Hills. Rather than levelling the slope, the rooms step down the hillside in small clusters, each with its own terrace and an uninterrupted view of the valley. Walls are built in local stone and the roofs are clad in clay tiles, so the buildings settle quietly into the landscape. A central lounge with a large fireplace becomes the heart of the hotel on cool evenings. Rainwater is harvested from every roof, and existing trees were kept throughout the site, protecting the estate's character and the shade it provides.",
+      "images": []
+    },
+    {
+      "name": "Coffee House",
+      "category": "hospitality",
+      "type": "Café",
+      "location": "Coimbatore",
+      "area": "1,800 sq ft",
+      "sample": true,
+      "description": "A neighbourhood café built inside an old, single-storey tiled house that the owners wanted to keep rather than demolish. The original timber roof was carefully restored and the front verandah opened up as a shaded seating area facing the street. Inside, a long counter in polished concrete runs the length of the main room, with the roasting and brewing on full view. Lime-washed walls, old Athangudi floor tiles and simple cane furniture give the café a relaxed, familiar character. A small rear courtyard with a neem tree offers a quieter corner for longer conversations and afternoon reading.",
+      "images": []
+    },
+    {
+      "name": "Lime House",
+      "category": "interiors",
+      "type": "Residence interior",
+      "location": "Salem",
+      "area": "5,400 sq ft",
+      "sample": true,
+      "description": "The complete interior of a large family home, designed around natural lime plaster walls in soft, warm tones. Each room has a different texture but the same quiet palette, so the house feels calm and connected from one space to the next. Custom furniture in solid teak and cane was drawn and made locally for every room, from the dining table to the beds. The kitchen combines a working kitchen hidden at the back with a show kitchen that opens to the dining area. Lighting is layered and mostly concealed, letting the walls and materials glow gently in the evening.",
+      "images": []
+    },
+    {
+      "name": "Design Studio Office",
+      "category": "interiors",
+      "type": "Office interior",
+      "location": "Tiruppur",
+      "area": "3,000 sq ft",
+      "sample": true,
+      "description": "The interior of a garment design studio, planned to support the daily flow from sketch to sample. A long central worktable in pale oak runs the full length of the space, with fabric storage, cutting tables and fitting rooms arranged along the walls. Full-height pinboards let designers display mood boards and swatches at eye level. A glazed meeting room in one corner keeps client discussions private while staying connected to the studio. Neutral finishes, good daylight and tunable lighting help designers judge colour accurately throughout the day, keeping the workspace calm, flexible and easy to rearrange.",
+      "images": []
+    }
+  ]
+}
