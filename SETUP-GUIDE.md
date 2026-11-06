@@ -181,7 +181,7 @@ Under **Pages**:
 - **Studio · About:** the title, paragraphs, team members and the photos that scroll under the logo. Leave the photo list empty to keep the line drawings.
 - **Studio · Services:** each service's name, description and up to 4 photos.
 - **Studio · Process:** the stages. They are numbered automatically in the order you put them.
-- **Contact details:** address, phone, WhatsApp number, email and Instagram. These update the Contact page and the sidebar icons.
+- **Contact details:** address, phone, WhatsApp number, email, Instagram and LinkedIn. These update the Contact page and the sidebar icons.
 
 ### Photo tips
 

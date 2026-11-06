@@ -10,6 +10,18 @@ backend:
 media_folder: images/uploads
 public_folder: images/uploads
 
+# Photos are shrunk automatically when uploaded: resized to fit within 2400 px and saved as WebP.
+# Quality 92 keeps photos close to the original: a 4 MB camera photo typically becomes about 0.8 to 1.5 MB.
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 92
+          width: 2400
+          height: 2400
+
 site_url: https://brep.co.in
 display_url: https://brep.co.in
 logo_url: /images/favicon.svg
@@ -155,3 +167,4 @@ collections:
           - { name: whatsapp, label: WhatsApp number, widget: string, hint: "Digits only, with country code. For example: 919790444744" }
           - { name: email, label: Email, widget: string }
           - { name: instagram, label: Instagram username, widget: string, required: false, hint: "Without the @. For example: brep.ad" }
+          - { name: linkedin, label: LinkedIn link, widget: string, required: false, hint: "Your LinkedIn page address. For example: https://www.linkedin.com/company/brep. Leave empty to hide the LinkedIn icon." }
